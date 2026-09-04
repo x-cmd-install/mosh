@@ -1,0 +1,63 @@
+about:
+  description: Mobile Shell
+  license: GPL-3.0
+  homepage: https://mosh.org
+  head: decd9b7
+  archived: false
+  latestVersion: mosh-1.4.0
+  collectedAt: 2026-09-04T04:35:43Z
+timeline:
+  created: 2011-01-09
+  lastCommit: 2026-03-22
+  lastRelease: 2022-10-27
+popularity:
+  star: 14440
+  watcher: 206
+  fork: 860
+  release: 13
+  contributor: 68
+  pullRequest: 297
+  issue: 951
+language:
+  C++: 526519
+  M4: 104271
+  Shell: 50252
+  Rich Text Format: 35387
+  Perl: 18464
+  C: 15209
+  Makefile: 12365
+  HTML: 2160
+totalLine: 764627
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 0
+    openPR: 6
+    closedIssue: 0
+    openIssue: 0
+    commit: 0
+  last90d:
+    since: 2026-06-06
+    release: 0
+    mergedPR: 0
+    openPR: 8
+    closedIssue: 4
+    openIssue: 2
+    commit: 0
+  last180d:
+    since: 2026-03-08
+    release: 0
+    mergedPR: 0
+    openPR: 16
+    closedIssue: 5
+    openIssue: 5
+    commit: 0
+  last360d:
+    since: 2025-09-09
+    release: 0
+    mergedPR: 8
+    openPR: 19
+    closedIssue: 9
+    openIssue: 10
+    commit: 18

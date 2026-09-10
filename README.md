@@ -1,24 +1,75 @@
 # mosh
 
+[中文版本](./README.cn.md)
+
 Mobile Shell
 
-- **Upstream**: <https://github.com/mobile-shell/mosh>
-- **Homepage**: <https://mosh.org>
-- **Latest release**: `mosh-1.4.0` (2022-10-27)
-- **Last commit**: 2026-03-22
-- **License**: GPL-3.0
-- **Stars**: 14475 · **Forks**: 863 · **Open issues**: 951 · **Contributors**: 68
+![mosh](https://repo.x-cmd.io/mosh.svg)
 
-## Installation
+## Install
 
 ```sh
 x install mosh
 ```
 
-See <https://x-cmd.com/install/mosh> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/mobile-shell/mosh>
+- **Homepage**: <https://mosh.org>
+- **License**: GPL-3.0
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T18:51:55Z._
+- **Latest**: `mosh-1.4.0` (2022-10-27)
+- **Last commit**: 2026-03-22
+- **Assets in release**: 3
+- **Published**: 2022-10-27T02:00:42Z
+
+## Popularity
+
+- **Stars**: 14,478 · **Forks**: 863 · **Open issues**: 951 · **Contributors**: 68
+
+## Totals (cumulative)
+
+- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 62 · **Closed issues**: 784 · **Open issues**: 167 · **Commits**: 1471
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 5 | 0 | 0 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 8 | 3 | 2 | 0 |
+| 360d | 2025-09-15 | 0 | 8 | 19 | 9 | 10 | 18 |
+
+## Code size
+
+Total: **13,881** lines of code across **107** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Cpp | 8,401 | 2,130 | 1,607 | 43 |
+| CHeader | 2,641 | 1,372 | 736 | 36 |
+| M4 | 1,292 | 822 | 313 | 14 |
+| Sh | 579 | 168 | 82 | 12 |
+| Perl | 432 | 58 | 76 | 2 |
+
+## OpenSSF Scorecard
+
+Overall score: **3.9 / 10**
+
+Lowest-scoring checks:
+
+- **Maintained** (1/10) — 0 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 1
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+
+## Improve this data
+
+Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `mosh` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+
+- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
+- **Edit the package entry**: <https://github.com/x-cmd/edit/main/mosh.yml> (or whichever path the index uses)
+
+The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+
+_Snapshot: `data/card/260910.yml` · 2026-09-10T04:45:24Z._

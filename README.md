@@ -12,43 +12,7 @@ Mobile Shell
 x install mosh
 ```
 
-## Source
-
-- **Upstream**: <https://github.com/mobile-shell/mosh>
-- **Homepage**: <https://mosh.org>
-- **License**: GPL-3.0
-
-## Release
-
-- **Latest**: `mosh-1.4.0` (2022-10-27)
-- **Last commit**: 2026-03-22
-- **Assets in release**: 3
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [mosh-1.4.0-osx-build-report.tbz](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0-osx-build-report.tbz) | 163.6 KiB | `native/darwin/x64` |
-| [mosh-1.4.0.pkg](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.pkg) | 1.5 MiB | `other` |
-| [mosh-1.4.0.tar.gz](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.tar.gz) | 384.2 KiB | `native/unknown` |
-
-## Popularity
-
-- **Stars**: 14,479 · **Forks**: 862 · **Open issues**: 951 · **Contributors**: 68
-
-## Totals (cumulative)
-
-- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 62 · **Closed issues**: 784 · **Open issues**: 167 · **Commits**: 1471
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 5 | 0 | 0 | 0 |
-| 90d | 2026-06-12 | 0 | 0 | 8 | 3 | 2 | 0 |
-| 360d | 2025-09-15 | 0 | 8 | 19 | 9 | 10 | 18 |
-
-## Code size
+## Code insight
 
 Total: **13,881** lines of code across **107** files in the top 5 languages.
 
@@ -70,6 +34,64 @@ Lowest-scoring checks:
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
+## Source
+
+- **Upstream**: <https://github.com/mobile-shell/mosh>
+- **Homepage**: <https://mosh.org>
+- **License**: GPL-3.0
+
+## Release
+
+- **Latest**: `mosh-1.4.0` (2022-10-27)
+- **Last commit**: 2026-03-22
+- **Assets in release**: 3
+
+## Popularity
+
+- **Stars**: 14,480 · **Forks**: 862 · **Open issues**: 951 · **Contributors**: 68
+
+## Totals (cumulative)
+
+- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 62 · **Closed issues**: 784 · **Open issues**: 167 · **Commits**: 1471
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 0 | 5 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 7 | 1 | 2 | 0 |
+| 90d | 2026-06-12 | 0 | 0 | 8 | 3 | 2 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 16 | 5 | 5 | 0 |
+| 360d | 2025-09-15 | 0 | 8 | 19 | 9 | 10 | 18 |
+| last720d | 2024-09-20 | 0 | 8 | 21 | 15 | 19 | 20 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [mosh-1.4.0-osx-build-report.tbz](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0-osx-build-report.tbz) | 163.6 KiB | `native/darwin/x64` |
+| [mosh-1.4.0.pkg](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.pkg) | 1.5 MiB | `other` |
+| [mosh-1.4.0.tar.gz](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.tar.gz) | 384.2 KiB | `native/unknown` |
+
+## Distribution status
+
+Reported by **191** distros on [repology.org](https://repology.org/project/mosh). **165** are ✅ on the latest upstream release, **21** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.4.0` | ✅ latest |
+| Debian 14 | `1.4.0` | ✅ latest |
+| Debian 13 | `1.4.0` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.4.0` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.4.0` | ✅ latest |
+| Arch | `1.4.0` | ✅ latest |
+| Homebrew | `1.4.0` | ✅ latest |
+| Fedora rawhide | `1.4.0` | ✅ latest |
+| Nix unstable | `1.4.0` | ✅ latest |
+| Void | `1.4.0` | ✅ latest |
+| Alpine edge | `1.4.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.4.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `mosh` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -79,4 +101,4 @@ Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:25:44Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:03:14Z._

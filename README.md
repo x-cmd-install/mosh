@@ -23,11 +23,18 @@ x install mosh
 - **Latest**: `mosh-1.4.0` (2022-10-27)
 - **Last commit**: 2026-03-22
 - **Assets in release**: 3
-- **Published**: 2022-10-27T02:00:42Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [mosh-1.4.0-osx-build-report.tbz](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0-osx-build-report.tbz) | 163.6 KiB | `native/darwin/x64` |
+| [mosh-1.4.0.pkg](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.pkg) | 1.5 MiB | `other` |
+| [mosh-1.4.0.tar.gz](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.tar.gz) | 384.2 KiB | `native/unknown` |
 
 ## Popularity
 
-- **Stars**: 14,478 · **Forks**: 863 · **Open issues**: 951 · **Contributors**: 68
+- **Stars**: 14,479 · **Forks**: 862 · **Open issues**: 951 · **Contributors**: 68
 
 ## Totals (cumulative)
 
@@ -68,8 +75,8 @@ Lowest-scoring checks:
 Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `mosh` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/mosh.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/mosh.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:45:24Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:25:44Z._

@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,496 · **Forks**: 865 · **Open issues**: 951 · **Contributors**: 68
+- **Stars**: 14,498 · **Forks**: 865 · **Open issues**: 952 · **Contributors**: 68
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 62 · **Closed issues**: 784 · **Open issues**: 167 · **Commits**: 1471
+- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 62 · **Closed issues**: 784 · **Open issues**: 168 · **Commits**: 1471
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 0 | 0 | 5 | 0 | 0 | 0 |
-| last60d | 2026-07-19 | 0 | 0 | 7 | 1 | 1 | 0 |
-| 90d | 2026-06-19 | 0 | 0 | 7 | 3 | 2 | 0 |
-| last180d | 2026-03-21 | 0 | 0 | 16 | 4 | 5 | 0 |
-| 360d | 2025-09-22 | 0 | 8 | 19 | 9 | 8 | 18 |
-| last720d | 2024-09-27 | 0 | 8 | 21 | 15 | 19 | 20 |
+| 30d | 2026-08-19 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-07-20 | 0 | 0 | 7 | 1 | 2 | 0 |
+| 90d | 2026-06-20 | 0 | 0 | 7 | 3 | 3 | 0 |
+| last180d | 2026-03-22 | 0 | 0 | 16 | 4 | 6 | 0 |
+| 360d | 2025-09-23 | 0 | 8 | 19 | 9 | 9 | 18 |
+| last720d | 2024-09-28 | 0 | 8 | 21 | 15 | 20 | 20 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T05:09:10Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T04:44:11Z._

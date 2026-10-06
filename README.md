@@ -26,12 +26,12 @@ Total: **13,881** lines of code across **107** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.1 / 10**
+Overall score: **4.2 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (3/10) — 0 commit(s) and 4 issue activity found in the last 90 days -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (4/10) — 0 commit(s) and 5 issue activity found in the last 90 days -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,544 · **Forks**: 868 · **Open issues**: 951 · **Contributors**: 68
+- **Stars**: 14,547 · **Forks**: 870 · **Open issues**: 952 · **Contributors**: 68
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 62 · **Closed issues**: 783 · **Open issues**: 168 · **Commits**: 1471
+- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 62 · **Closed issues**: 783 · **Open issues**: 169 · **Commits**: 1471
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-08-06 | 0 | 0 | 6 | 0 | 1 | 0 |
-| 90d | 2026-07-07 | 0 | 0 | 7 | 1 | 3 | 0 |
-| last180d | 2026-04-08 | 0 | 0 | 10 | 4 | 6 | 0 |
-| 360d | 2025-10-10 | 0 | 8 | 19 | 9 | 9 | 18 |
-| last720d | 2024-10-15 | 0 | 8 | 21 | 15 | 20 | 20 |
+| 30d | 2026-09-06 | 0 | 0 | 0 | 0 | 2 | 0 |
+| last60d | 2026-08-07 | 0 | 0 | 6 | 0 | 2 | 0 |
+| 90d | 2026-07-08 | 0 | 0 | 7 | 1 | 4 | 0 |
+| last180d | 2026-04-09 | 0 | 0 | 10 | 4 | 7 | 0 |
+| 360d | 2025-10-11 | 0 | 8 | 19 | 9 | 10 | 18 |
+| last720d | 2024-10-16 | 0 | 8 | 21 | 15 | 21 | 20 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:36:32Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:27:01Z._

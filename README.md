@@ -26,12 +26,12 @@ Total: **13,881** lines of code across **107** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.1 / 10**
+Overall score: **4 / 10**
 
 Lowest-scoring checks:
 
-- **Maintained** (3/10) — 0 commit(s) and 4 issue activity found in the last 90 days -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (2/10) — 0 commit(s) and 3 issue activity found in the last 90 days -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,619 · **Forks**: 877 · **Open issues**: 954 · **Contributors**: 68
+- **Stars**: 14,627 · **Forks**: 877 · **Open issues**: 954 · **Contributors**: 68
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 3 | 0 | 2 | 0 |
-| last60d | 2026-09-05 | 0 | 0 | 3 | 0 | 4 | 0 |
-| 90d | 2026-08-06 | 0 | 0 | 9 | 0 | 4 | 0 |
-| last180d | 2026-05-08 | 0 | 0 | 11 | 4 | 6 | 0 |
-| 360d | 2025-11-09 | 0 | 8 | 21 | 5 | 11 | 18 |
-| last720d | 2024-11-14 | 0 | 8 | 24 | 15 | 23 | 20 |
+| 30d | 2026-10-06 | 0 | 0 | 3 | 0 | 1 | 0 |
+| last60d | 2026-09-06 | 0 | 0 | 3 | 0 | 4 | 0 |
+| 90d | 2026-08-07 | 0 | 0 | 9 | 0 | 4 | 0 |
+| last180d | 2026-05-09 | 0 | 0 | 11 | 4 | 6 | 0 |
+| 360d | 2025-11-10 | 0 | 8 | 21 | 5 | 11 | 18 |
+| last720d | 2024-11-15 | 0 | 8 | 24 | 15 | 23 | 20 |
 
 ## Release assets
 
@@ -75,7 +75,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **187** distros on [repology.org](https://repology.org/project/mosh). **163** are ✅ on the latest upstream release, **19** are ⚠️ on an older version.
+Reported by **189** distros on [repology.org](https://repology.org/project/mosh). **165** are ✅ on the latest upstream release, **19** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:14:52Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:49:44Z._

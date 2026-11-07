@@ -1,27 +1,88 @@
-- repo: chimera
-  subrepo: main
+- repo: parabola
+  subrepo: extra
   srcname: mosh
   binname: mosh
   visiblename: mosh
   version: 1.4.0
-  origversion: 1.4.0-r28
+  origversion: 1.4.0-35
   status: newest
-  summary: Mobile shell
+  summary: Mobile shell, surviving disconnects with local echo and line editing
   licenses:
-    - GPL-3.0-or-later
-- repo: adelie_current
-  subrepo: user
+    - GPL-3.0-only
+- repo: pardus_21
+  subrepo: main
   srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r0
-  status: newest
-  summary: Mosh client
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.3.2
+  origversion: 1.3.2-2.1
+  status: outdated
   maintainers:
-    - djt@hxx.in
-  licenses:
-    - GPL-3.0+
+    - keithw@mit.edu
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot/main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
+  categories:
+    - net
+- repo: deepin_unstable
+  subrepo: main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.3.2
+  origversion: 1.3.2-2.1
+  status: outdated
+  maintainers:
+    - keithw@mit.edu
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.3.2
+  origversion: 1.3.2-2.1
+  status: outdated
+  maintainers:
+    - keithw@mit.edu
+  categories:
+    - net
+- repo: distri
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.3.2
+  origversion: 1.3.2-8
+  status: outdated
 - repo: adelie_current
   subrepo: user
   srcname: mosh
@@ -35,17 +96,6 @@
     - djt@hxx.in
   licenses:
     - GPL-3.0+
-- repo: chimera
-  subrepo: main
-  srcname: mosh
-  binname: mosh-man
-  visiblename: mosh-man
-  version: 1.4.0
-  origversion: 1.4.0-r28
-  status: newest
-  summary: Mobile shell (manual pages)
-  licenses:
-    - GPL-3.0-or-later
 - repo: adelie_current
   subrepo: user
   srcname: mosh
@@ -59,17 +109,19 @@
     - djt@hxx.in
   licenses:
     - GPL-3.0+
-- repo: artix_testing
-  subrepo: world-gremlins
+- repo: adelie_current
+  subrepo: user
   srcname: mosh
-  binname: mosh
-  visiblename: mosh
+  binname: mosh-client
+  visiblename: mosh-client
   version: 1.4.0
-  origversion: 1.4.0-36
+  origversion: 1.4.0-r0
   status: newest
-  summary: Mobile shell, surviving disconnects with local echo and line editing
+  summary: Mosh client
+  maintainers:
+    - djt@hxx.in
   licenses:
-    - GPL-3.0-only
+    - GPL-3.0+
 - repo: adelie_current
   subrepo: user
   srcname: mosh
@@ -365,6 +417,17 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
+- repo: arch
+  subrepo: extra
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-35
+  status: newest
+  summary: Mobile shell, surviving disconnects with local echo and line editing
+  licenses:
+    - GPL-3.0-only
 - repo: alpine_3_20
   subrepo: main
   srcname: mosh
@@ -508,6 +571,21 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
+  categories:
+    - net
 - repo: alpine_3_22
   subrepo: main
   srcname: mosh
@@ -967,17 +1045,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - net
-- repo: arch
-  subrepo: extra
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-35
-  status: newest
-  summary: Mobile shell, surviving disconnects with local echo and line editing
-  licenses:
-    - GPL-3.0-only
 - repo: arch_testing
   subrepo: extra-testing
   srcname: mosh
@@ -1012,6 +1079,39 @@
   summary: Mobile shell, surviving disconnects with local echo and line editing
   licenses:
     - GPL-3.0-only
+- repo: artix_testing
+  subrepo: world-gremlins
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-36
+  status: newest
+  summary: Mobile shell, surviving disconnects with local echo and line editing
+  licenses:
+    - GPL-3.0-only
+- repo: chimera
+  subrepo: main
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r28
+  status: newest
+  summary: Mobile shell
+  licenses:
+    - GPL-3.0-or-later
+- repo: chimera
+  subrepo: main
+  srcname: mosh
+  binname: mosh-man
+  visiblename: mosh-man
+  version: 1.4.0
+  origversion: 1.4.0-r28
+  status: newest
+  summary: Mobile shell (manual pages)
+  licenses:
+    - GPL-3.0-or-later
 - repo: chromebrew
   srcname: mosh
   visiblename: mosh
@@ -1122,52 +1222,6 @@
     - bbaren@debian.org
   categories:
     - net
-- repo: deepin_unstable
-  subrepo: main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.3.2
-  origversion: 1.3.2-2.1
-  status: outdated
-  maintainers:
-    - keithw@mit.edu
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.3.2
-  origversion: 1.3.2-2.1
-  status: outdated
-  maintainers:
-    - keithw@mit.edu
-  categories:
-    - net
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
-  categories:
-    - net
-- repo: distri
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.3.2
-  origversion: 1.3.2-8
-  status: outdated
 - repo: epel_6
   srcname: mosh
   visiblename: mosh
@@ -1577,22 +1631,22 @@
   binname: mosh
   visiblename: mosh
   version: 1.4.0
-  origversion: 1.4.0-4
+  origversion: 1.4.0-35
   status: newest
   summary: Mobile shell, surviving disconnects with local echo and line editing
   licenses:
-    - GPL3
+    - GPL-3.0-only
 - repo: manjaro_testing
   subrepo: extra
   srcname: mosh
   binname: mosh
   visiblename: mosh
   version: 1.4.0
-  origversion: 1.4.0-5
+  origversion: 1.4.0-35
   status: newest
   summary: Mobile shell, surviving disconnects with local echo and line editing
   licenses:
-    - GPL3
+    - GPL-3.0-only
 - repo: manjaro_unstable
   subrepo: extra
   srcname: mosh
@@ -1765,17 +1819,6 @@
     - GPL-3.0
   categories:
     - Applications/Internet
-- repo: openpkg_current
-  srcname: mosh
-  visiblename: mosh
-  version: 1.2.6
-  origversion: null
-  status: outdated
-  summary: Mobile Secure Shell
-  licenses:
-    - GPL
-  categories:
-    - Network
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: mosh
@@ -1891,15 +1934,6 @@
     - rosenp@gmail.com
   categories:
     - net
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/net/mosh
@@ -1910,60 +1944,6 @@
   status: newest
   maintainers:
     - rosenp@gmail.com
-  categories:
-    - net
-- repo: parabola
-  subrepo: extra
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-35
-  status: newest
-  summary: Mobile shell, surviving disconnects with local echo and line editing
-  licenses:
-    - GPL-3.0-only
-- repo: pardus_21
-  subrepo: main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.3.2
-  origversion: 1.3.2-2.1
-  status: outdated
-  maintainers:
-    - keithw@mit.edu
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
   categories:
     - net
 - repo: pkgsrc_2026_2
@@ -2162,6 +2142,15 @@
     - network
 - repo: slackware_current
   subrepo: slackware
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
   binname: mosh
   visiblename: mosh
   version: 1.4.0
@@ -2379,6 +2368,21 @@
     - net
 - repo: ubuntu_26_10
   subrepo: stonking/main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-1ubuntu6
+  status: newest
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - achernya@debian.org
+    - bbaren@debian.org
+  categories:
+    - net
+- repo: ubuntu_27_04
+  subrepo: tenacious/main
   srcname: mosh
   binnames:
     - mosh

@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,646 · **Forks**: 880 · **Open issues**: 954 · **Contributors**: 68
+- **Stars**: 14,649 · **Forks**: 881 · **Open issues**: 954 · **Contributors**: 68
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 66 · **Closed issues**: 783 · **Open issues**: 171 · **Commits**: 1471
+- **Releases**: 13 · **Merged PRs**: 154 · **Open PRs**: 67 · **Closed issues**: 783 · **Open issues**: 171 · **Commits**: 1471
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 0 | 4 | 0 | 1 | 0 |
-| last60d | 2026-09-11 | 0 | 0 | 4 | 0 | 4 | 0 |
-| 90d | 2026-08-12 | 0 | 0 | 9 | 0 | 4 | 0 |
-| last180d | 2026-05-14 | 0 | 0 | 12 | 4 | 6 | 0 |
-| 360d | 2025-11-15 | 0 | 8 | 22 | 5 | 11 | 18 |
-| last720d | 2024-11-20 | 0 | 8 | 24 | 15 | 22 | 20 |
+| 30d | 2026-10-12 | 0 | 0 | 5 | 0 | 1 | 0 |
+| last60d | 2026-09-12 | 0 | 0 | 5 | 0 | 4 | 0 |
+| 90d | 2026-08-13 | 0 | 0 | 10 | 0 | 4 | 0 |
+| last180d | 2026-05-15 | 0 | 0 | 13 | 4 | 6 | 0 |
+| 360d | 2025-11-16 | 0 | 8 | 23 | 5 | 11 | 18 |
+| last720d | 2024-11-21 | 0 | 8 | 25 | 15 | 22 | 20 |
 
 ## Release assets
 
@@ -75,7 +75,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **189** distros on [repology.org](https://repology.org/project/mosh). **166** are ✅ on the latest upstream release, **18** are ⚠️ on an older version.
+Reported by **187** distros on [repology.org](https://repology.org/project/mosh). **164** are ✅ on the latest upstream release, **18** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -85,7 +85,7 @@ Reported by **189** distros on [repology.org](https://repology.org/project/mosh)
 | Ubuntu 26.04 LTS | `1.4.0` | ✅ latest |
 | Ubuntu 24.04 LTS | `1.4.0` | ✅ latest |
 | Arch | `1.4.0` | ✅ latest |
-| Homebrew | `1.4.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.4.0` | ✅ latest |
 | Nix unstable | `1.4.0` | ✅ latest |
 | Void | `1.4.0` | ✅ latest |
@@ -101,4 +101,4 @@ Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T07:22:42Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T06:05:02Z._

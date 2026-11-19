@@ -1,115 +1,33 @@
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: debian_11
-  subrepo: bullseye/main
+- repo: parrot
+  subrepo: parrot/main
   srcname: mosh
   binnames:
     - mosh
   visiblename: mosh
-  version: 1.3.2
-  origversion: 1.3.2-2.1
-  status: outdated
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
   maintainers:
     - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
   categories:
     - net
-- repo: gobolinux
-  srcname: Mosh
-  visiblename: Mosh
-  version: 1.2.5
-  origversion: null
-  status: outdated
-  summary: Replacement for SSH designed for mobile situations.
-  licenses:
-    - GNU General Public License version 3
-- repo: nix_stable_24_11
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: mosh
+  binnames:
+    - mosh
   visiblename: mosh
   version: 1.4.0
-  origversion: null
+  origversion: 1.4.0-1
   status: newest
-  summary: Mobile shell (ssh replacement)
   maintainers:
-    - steven.keuchel@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-- repo: haikuports_master
-  srcname: net-misc/mosh
-  visiblename: net-misc/mosh
-  version: 1.3.2
-  origversion: null
-  status: outdated
+    - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
   categories:
-    - net-misc
-- repo: homebrew
-  srcname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  summary: Remote terminal application
-- repo: nix_stable_25_05
-  srcname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  summary: Mobile shell (ssh replacement)
-  maintainers:
-    - steven.keuchel@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-- repo: homebrew
-  srcname: mosh
-  visiblename: mosh
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Remote terminal application
-- repo: alpine_3_18
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r1
-  status: newest
-  summary: Mosh client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_25_11
-  srcname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  summary: Mobile shell (ssh replacement)
-  maintainers:
-    - steven.keuchel@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-- repo: adelie_current
-  subrepo: user
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-r0
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing
-  maintainers:
-    - djt@hxx.in
-  licenses:
-    - GPL-3.0+
+    - net
 - repo: adelie_current
   subrepo: user
   srcname: mosh
@@ -119,6 +37,19 @@
   origversion: 1.4.0-r0
   status: newest
   summary: Bash completions for mosh
+  maintainers:
+    - djt@hxx.in
+  licenses:
+    - GPL-3.0+
+- repo: adelie_current
+  subrepo: user
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r0
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing
   maintainers:
     - djt@hxx.in
   licenses:
@@ -291,6 +222,19 @@
 - repo: alpine_3_18
   subrepo: main
   srcname: mosh
+  binname: mosh-client
+  visiblename: mosh-client
+  version: 1.4.0
+  origversion: 1.4.0-r1
+  status: newest
+  summary: Mosh client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_18
+  subrepo: main
+  srcname: mosh
   binname: mosh-doc
   visiblename: mosh-doc
   version: 1.4.0
@@ -431,137 +375,135 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-doc
-  visiblename: mosh-doc
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server-doc
-  visiblename: mosh-server-doc
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Mosh server (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
+- repo: pkgsrc_2026_2
+  srcname: net/mosh
   binname: mosh
-  visiblename: mosh
+  visiblename: net/mosh
   version: 1.4.0
-  origversion: 1.4.0-r12
+  origversion: 1.4.0nb10
   status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing
+  summary: Remote terminal application which allows roaming
   maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-bash-completion
-  visiblename: mosh-bash-completion
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Bash completions for mosh
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mosh client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client-doc
-  visiblename: mosh-client-doc
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mosh client (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-doc
-  visiblename: mosh-doc
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: cygwin
-  srcname: mosh
-  binname: mosh-debuginfo
-  visiblename: mosh-debuginfo
-  version: 1.4.0
-  origversion: 1.4.0-3
-  status: newest
-  summary: Mobile Shell (mosh)
-  maintainers:
-    - achim.gratz@cygwin
-  licenses:
-    - GPL-3.0-or-later
+    - agc@netbsd.org
   categories:
-    - Debug
+    - net
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-doc
+  visiblename: mosh-doc
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mosh server
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server-doc
+  visiblename: mosh-server-doc
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mosh server (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-bash-completion
+  visiblename: mosh-bash-completion
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Bash completions for mosh
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client
+  visiblename: mosh-client
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mosh client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client-doc
+  visiblename: mosh-client-doc
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mosh client (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-doc
+  visiblename: mosh-doc
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mosh server
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
 - repo: alpine_3_21
   subrepo: main
   srcname: mosh
@@ -653,6 +595,19 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
+- repo: t2
+  srcname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: Mobile Shell
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - GPL3
+  categories:
+    - base/system extra/network
 - repo: alpine_3_22
   subrepo: main
   srcname: mosh
@@ -965,18 +920,6 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/net/mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - rosenp@gmail.com
-  categories:
-    - utils
 - repo: alpine_edge
   subrepo: main
   srcname: mosh
@@ -1125,16 +1068,33 @@
     - GPL-3.0-or-later
   categories:
     - Utils
-- repo: slackbuilds
-  srcname: network/mosh
-  visiblename: network/mosh
+- repo: cygwin
+  srcname: mosh
+  binname: mosh-debuginfo
+  visiblename: mosh-debuginfo
   version: 1.4.0
-  origversion: null
+  origversion: 1.4.0-3
   status: newest
+  summary: Mobile Shell (mosh)
   maintainers:
-    - urchlay@slackware.uk
+    - achim.gratz@cygwin
+  licenses:
+    - GPL-3.0-or-later
   categories:
-    - network
+    - Debug
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.3.2
+  origversion: 1.3.2-2.1
+  status: outdated
+  maintainers:
+    - keithw@mit.edu
+  categories:
+    - net
 - repo: debian_12
   subrepo: bookworm/main
   srcname: mosh
@@ -1241,6 +1201,18 @@
   version: 1.3.2
   origversion: 1.3.2-8
   status: outdated
+- repo: pkgsrc_2026_3
+  srcname: net/mosh
+  binname: mosh
+  visiblename: net/mosh
+  version: 1.4.0
+  origversion: 1.4.0nb12
+  status: newest
+  summary: Remote terminal application which allows roaming
+  maintainers:
+    - agc@netbsd.org
+  categories:
+    - net
 - repo: epel_7
   srcname: mosh
   visiblename: mosh
@@ -1466,6 +1438,37 @@
   origversion: null
   status: newest
   summary: Remote shell tolerant to intermittent connectivity
+- repo: gobolinux
+  srcname: Mosh
+  visiblename: Mosh
+  version: 1.2.5
+  origversion: null
+  status: outdated
+  summary: Replacement for SSH designed for mobile situations.
+  licenses:
+    - GNU General Public License version 3
+- repo: haikuports_master
+  srcname: net-misc/mosh
+  visiblename: net-misc/mosh
+  version: 1.3.2
+  origversion: null
+  status: outdated
+  categories:
+    - net-misc
+- repo: homebrew
+  srcname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: Remote terminal application
+- repo: homebrew
+  srcname: mosh
+  visiblename: mosh
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Remote terminal application
 - repo: kali_rolling
   subrepo: main
   srcname: mosh
@@ -1532,6 +1535,22 @@
     - GPL-3
   categories:
     - net-misc
+- repo: openmamba
+  subrepo: base
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-11mamba
+  status: newest
+  summary: A remote terminal application that allows roaming, supports intermittent connectivity, and more
+  maintainers:
+    - silvan@openmamba.org
+  licenses:
+    - GPL
+  categories:
+    - Network/Security
 - repo: liguros_develop
   srcname: net-misc/mosh
   visiblename: net-misc/mosh
@@ -1561,22 +1580,6 @@
     - OpenSSLException
   categories:
     - net
-- repo: mageia_9
-  subrepo: core/release
-  srcname: mosh
-  binnames:
-    - mosh
-    - mosh-debuginfo
-    - mosh-debugsource
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-2.mga9
-  status: newest
-  summary: Mobile shell that supports roaming and intelligent local echo
-  licenses:
-    - GPLv3+
-  categories:
-    - Networking/Remote access
 - repo: mageia_10
   subrepo: core/release
   srcname: mosh
@@ -1662,6 +1665,39 @@
     - viric@viric.name
   licenses:
     - GPL-3.0-or-later
+- repo: nix_stable_24_11
+  srcname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: Mobile shell (ssh replacement)
+  maintainers:
+    - steven.keuchel@gmail.com
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_25_05
+  srcname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: Mobile shell (ssh replacement)
+  maintainers:
+    - steven.keuchel@gmail.com
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_25_11
+  srcname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: Mobile shell (ssh replacement)
+  maintainers:
+    - steven.keuchel@gmail.com
+  licenses:
+    - GPL-3.0-or-later
 - repo: nix_stable_26_05
   srcname: mosh
   visiblename: mosh
@@ -1707,22 +1743,6 @@
   summary: Mosh (mobile shell) - Remote terminal application that allows roaming, supports intermittent connectivity, and provides intelligent local echo and line editing of user keystrokes (replacement for SSH).
   categories:
     - System/Security
-- repo: openmamba
-  subrepo: base
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-11mamba
-  status: newest
-  summary: A remote terminal application that allows roaming, supports intermittent connectivity, and more
-  maintainers:
-    - silvan@openmamba.org
-  licenses:
-    - GPL
-  categories:
-    - Network/Security
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: mosh
@@ -1759,15 +1779,6 @@
     - GPL-3.0
   categories:
     - Applications/Internet
-- repo: slackware_current
-  subrepo: slackware
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: mosh
@@ -1865,6 +1876,18 @@
     - rosenp@gmail.com
   categories:
     - utils
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/net/mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - rosenp@gmail.com
+  categories:
+    - utils
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/net/mosh
@@ -1923,60 +1946,6 @@
   status: outdated
   maintainers:
     - keithw@mit.edu
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
-  categories:
-    - net
-- repo: pkgsrc_2026_2
-  srcname: net/mosh
-  binname: mosh
-  visiblename: net/mosh
-  version: 1.4.0
-  origversion: 1.4.0nb10
-  status: newest
-  summary: Remote terminal application which allows roaming
-  maintainers:
-    - agc@netbsd.org
-  categories:
-    - net
-- repo: pkgsrc_2026_3
-  srcname: net/mosh
-  binname: mosh
-  visiblename: net/mosh
-  version: 1.4.0
-  origversion: 1.4.0nb12
-  status: newest
-  summary: Remote terminal application which allows roaming
-  maintainers:
-    - agc@netbsd.org
   categories:
     - net
 - repo: pkgsrc_current
@@ -2139,6 +2108,34 @@
     - GPLv3+
   categories:
     - Networking/Remote access
+- repo: slackbuilds
+  srcname: network/mosh
+  visiblename: network/mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  maintainers:
+    - urchlay@slackware.uk
+  categories:
+    - network
+- repo: slackware_current
+  subrepo: slackware
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: mosh
   binname: mosh
@@ -2199,19 +2196,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: t2
-  srcname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  summary: Mobile Shell
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - GPL3
-  categories:
-    - base/system extra/network
 - repo: termux
   srcname: mosh
   binname: mosh

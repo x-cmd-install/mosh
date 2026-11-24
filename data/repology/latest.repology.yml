@@ -1,32 +1,25 @@
-- repo: kali_rolling
+- repo: kiss_community
+  subrepo: community
+  srcname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  maintainers:
+    - jslick@gmail.com
+- repo: alpine_3_17
   subrepo: main
   srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
+  binname: mosh-server
+  visiblename: mosh-server
   version: 1.4.0
-  origversion: 1.4.0-1
+  origversion: 1.4.0-r0
   status: newest
+  summary: Mosh server
   maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
-  categories:
-    - net
-- repo: cygwin
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-3
-  status: newest
-  summary: Mobile Shell (mosh)
-  maintainers:
-    - achim.gratz@cygwin
+    - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-  categories:
-    - Utils
 - repo: adelie_current
   subrepo: user
   srcname: mosh
@@ -143,19 +136,6 @@
 - repo: alpine_3_17
   subrepo: main
   srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r0
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_17
-  subrepo: main
-  srcname: mosh
   binname: mosh
   visiblename: mosh
   version: 1.4.0
@@ -309,566 +289,567 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: alpine_3_19
+- repo: kali_rolling
   subrepo: main
   srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r6
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh
+  binnames:
+    - mosh
   visiblename: mosh
   version: 1.4.0
-  origversion: 1.4.0-r8
+  origversion: 1.4.0-1
   status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing
   maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-bash-completion
-  visiblename: mosh-bash-completion
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Bash completions for mosh
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Mosh client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client-doc
-  visiblename: mosh-client-doc
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Mosh client (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-doc
-  visiblename: mosh-doc
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server-doc
-  visiblename: mosh-server-doc
-  version: 1.4.0
-  origversion: 1.4.0-r8
-  status: newest
-  summary: Mosh server (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-bash-completion
-  visiblename: mosh-bash-completion
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Bash completions for mosh
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mosh client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client-doc
-  visiblename: mosh-client-doc
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mosh client (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-doc
-  visiblename: mosh-doc
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server-doc
-  visiblename: mosh-server-doc
-  version: 1.4.0
-  origversion: 1.4.0-r12
-  status: newest
-  summary: Mosh server (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-r14
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosh
-  binname: mosh-bash-completion
-  visiblename: mosh-bash-completion
-  version: 1.4.0
-  origversion: 1.4.0-r14
-  status: newest
-  summary: Bash completions for mosh
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r14
-  status: newest
-  summary: Mosh client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client-doc
-  visiblename: mosh-client-doc
-  version: 1.4.0
-  origversion: 1.4.0-r14
-  status: newest
-  summary: Mosh client (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosh
-  binname: mosh-doc
-  visiblename: mosh-doc
-  version: 1.4.0
-  origversion: 1.4.0-r14
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r14
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server-doc
-  visiblename: mosh-server-doc
-  version: 1.4.0
-  origversion: 1.4.0-r14
-  status: newest
-  summary: Mosh server (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosh
-  binname: mosh-bash-completion
-  visiblename: mosh-bash-completion
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Bash completions for mosh
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mosh client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client-doc
-  visiblename: mosh-client-doc
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mosh client (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosh
-  binname: mosh-doc
-  visiblename: mosh-doc
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosh
-  binname: mosh-nftrules
-  visiblename: mosh-nftrules
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (nftables ruleset)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server-doc
-  visiblename: mosh-server-doc
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mosh server (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosh
-  binname: mosh-bash-completion
-  visiblename: mosh-bash-completion
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Bash completions for mosh
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mosh client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client-doc
-  visiblename: mosh-client-doc
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mosh client (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosh
-  binname: mosh-doc
-  visiblename: mosh-doc
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosh
-  binname: mosh-nftrules
-  visiblename: mosh-nftrules
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing (nftables ruleset)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mosh server
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: mosh
-  binname: mosh-server-doc
-  visiblename: mosh-server-doc
-  version: 1.4.0
-  origversion: 1.4.0-r18
-  status: newest
-  summary: Mosh server (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-r21
-  status: newest
-  summary: Mobile shell surviving disconnects with local echo and line editing
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: mosh
-  binname: mosh-bash-completion
-  visiblename: mosh-bash-completion
-  version: 1.4.0
-  origversion: 1.4.0-r21
-  status: newest
-  summary: Bash completions for mosh
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client
-  visiblename: mosh-client
-  version: 1.4.0
-  origversion: 1.4.0-r21
-  status: newest
-  summary: Mosh client
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: mosh
-  binname: mosh-client-doc
-  visiblename: mosh-client-doc
-  version: 1.4.0
-  origversion: 1.4.0-r21
-  status: newest
-  summary: Mosh client (documentation)
-  maintainers:
-    - fcolista@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: cygwin
-  srcname: mosh
-  binname: mosh-debuginfo
-  visiblename: mosh-debuginfo
-  version: 1.4.0
-  origversion: 1.4.0-3
-  status: newest
-  summary: Mobile Shell (mosh)
-  maintainers:
-    - achim.gratz@cygwin
-  licenses:
-    - GPL-3.0-or-later
+    - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
   categories:
-    - Debug
+    - net
+- repo: alpine_3_19
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r6
+  status: newest
+  summary: Mosh server
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-bash-completion
+  visiblename: mosh-bash-completion
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Bash completions for mosh
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client
+  visiblename: mosh-client
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mosh client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client-doc
+  visiblename: mosh-client-doc
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mosh client (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-doc
+  visiblename: mosh-doc
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mosh server
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server-doc
+  visiblename: mosh-server-doc
+  version: 1.4.0
+  origversion: 1.4.0-r8
+  status: newest
+  summary: Mosh server (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-bash-completion
+  visiblename: mosh-bash-completion
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Bash completions for mosh
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client
+  visiblename: mosh-client
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mosh client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client-doc
+  visiblename: mosh-client-doc
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mosh client (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-doc
+  visiblename: mosh-doc
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mosh server
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server-doc
+  visiblename: mosh-server-doc
+  version: 1.4.0
+  origversion: 1.4.0-r12
+  status: newest
+  summary: Mosh server (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r14
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosh
+  binname: mosh-bash-completion
+  visiblename: mosh-bash-completion
+  version: 1.4.0
+  origversion: 1.4.0-r14
+  status: newest
+  summary: Bash completions for mosh
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client
+  visiblename: mosh-client
+  version: 1.4.0
+  origversion: 1.4.0-r14
+  status: newest
+  summary: Mosh client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client-doc
+  visiblename: mosh-client-doc
+  version: 1.4.0
+  origversion: 1.4.0-r14
+  status: newest
+  summary: Mosh client (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosh
+  binname: mosh-doc
+  visiblename: mosh-doc
+  version: 1.4.0
+  origversion: 1.4.0-r14
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r14
+  status: newest
+  summary: Mosh server
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server-doc
+  visiblename: mosh-server-doc
+  version: 1.4.0
+  origversion: 1.4.0-r14
+  status: newest
+  summary: Mosh server (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosh
+  binname: mosh-bash-completion
+  visiblename: mosh-bash-completion
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Bash completions for mosh
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client
+  visiblename: mosh-client
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mosh client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client-doc
+  visiblename: mosh-client-doc
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mosh client (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosh
+  binname: mosh-doc
+  visiblename: mosh-doc
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosh
+  binname: mosh-nftrules
+  visiblename: mosh-nftrules
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (nftables ruleset)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mosh server
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server-doc
+  visiblename: mosh-server-doc
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mosh server (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosh
+  binname: mosh-bash-completion
+  visiblename: mosh-bash-completion
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Bash completions for mosh
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client
+  visiblename: mosh-client
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mosh client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client-doc
+  visiblename: mosh-client-doc
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mosh client (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosh
+  binname: mosh-doc
+  visiblename: mosh-doc
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosh
+  binname: mosh-nftrules
+  visiblename: mosh-nftrules
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing (nftables ruleset)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mosh server
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: mosh
+  binname: mosh-server-doc
+  visiblename: mosh-server-doc
+  version: 1.4.0
+  origversion: 1.4.0-r18
+  status: newest
+  summary: Mosh server (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-r21
+  status: newest
+  summary: Mobile shell surviving disconnects with local echo and line editing
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: mosh
+  binname: mosh-bash-completion
+  visiblename: mosh-bash-completion
+  version: 1.4.0
+  origversion: 1.4.0-r21
+  status: newest
+  summary: Bash completions for mosh
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client
+  visiblename: mosh-client
+  version: 1.4.0
+  origversion: 1.4.0-r21
+  status: newest
+  summary: Mosh client
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: mosh
+  binname: mosh-client-doc
+  visiblename: mosh-client-doc
+  version: 1.4.0
+  origversion: 1.4.0-r21
+  status: newest
+  summary: Mosh client (documentation)
+  maintainers:
+    - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
 - repo: alpine_edge
   subrepo: main
   srcname: mosh
@@ -893,6 +874,17 @@
   summary: Mobile shell surviving disconnects with local echo and line editing (nftables ruleset)
   maintainers:
     - fcolista@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_25_11
+  srcname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: Mobile shell (ssh replacement)
+  maintainers:
+    - steven.keuchel@gmail.com
   licenses:
     - GPL-3.0-or-later
 - repo: alpine_edge
@@ -1042,6 +1034,34 @@
   summary: Remote terminal application that allows roaming, supports intermittent connectivity, and provides intelligent local echo and line editing of user keystrokes.
   licenses:
     - GPL-3
+- repo: cygwin
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-3
+  status: newest
+  summary: Mobile Shell (mosh)
+  maintainers:
+    - achim.gratz@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Utils
+- repo: cygwin
+  srcname: mosh
+  binname: mosh-debuginfo
+  visiblename: mosh-debuginfo
+  version: 1.4.0
+  origversion: 1.4.0-3
+  status: newest
+  summary: Mobile Shell (mosh)
+  maintainers:
+    - achim.gratz@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Debug
 - repo: debian_11
   subrepo: bullseye/main
   srcname: mosh
@@ -1242,6 +1262,18 @@
     - GPLv3+
   categories:
     - Unspecified
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/net/mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - rosenp@gmail.com
+  categories:
+    - utils
 - repo: fedora_40
   subrepo: release
   srcname: mosh
@@ -1406,15 +1438,6 @@
   origversion: null
   status: rolling
   summary: Remote terminal application
-- repo: kiss_community
-  subrepo: community
-  srcname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  maintainers:
-    - jslick@gmail.com
 - repo: liguros_stable
   srcname: net-misc/mosh
   visiblename: net-misc/mosh
@@ -1520,7 +1543,7 @@
   binname: mosh
   visiblename: mosh
   version: 1.4.0
-  origversion: 1.4.0-35
+  origversion: 1.4.0-36
   status: newest
   summary: Mobile shell, surviving disconnects with local echo and line editing
   licenses:
@@ -1583,17 +1606,6 @@
   licenses:
     - GPL-3.0-or-later
 - repo: nix_stable_25_05
-  srcname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: null
-  status: newest
-  summary: Mobile shell (ssh replacement)
-  maintainers:
-    - steven.keuchel@gmail.com
-  licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_25_11
   srcname: mosh
   visiblename: mosh
   version: 1.4.0
@@ -1798,18 +1810,6 @@
     - rosenp@gmail.com
   categories:
     - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/net/mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - rosenp@gmail.com
-  categories:
-    - utils
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/net/mosh
@@ -1871,7 +1871,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: mosh
   binnames:
     - mosh
@@ -1886,7 +1886,7 @@
   categories:
     - net
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: mosh
   binnames:
     - mosh

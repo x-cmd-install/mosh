@@ -1,72 +1,3 @@
-- repo: pardus_21
-  subrepo: main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.3.2
-  origversion: 1.3.2-2.1
-  status: outdated
-  maintainers:
-    - keithw@mit.edu
-  categories:
-    - net
-- repo: kali_rolling
-  subrepo: main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
-  categories:
-    - net
-- repo: aixtoolbox
-  srcname: mosh
-  visiblename: mosh
-  version: 1.3.2
-  origversion: 1.3.2-1
-  status: legacy
-  summary: Mobile shell that supports roaming and intelligent local echo
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - keithw@mit.edu
-    - achernya@debian.org
-    - bbaren@debian.org
-  categories:
-    - net
 - repo: aixtoolbox
   srcname: mosh
   visiblename: mosh
@@ -78,29 +9,34 @@
     - GPLv3+
   categories:
     - Unspecified
-- repo: nix_stable_25_11
+- repo: cygwin
   srcname: mosh
+  binname: mosh
   visiblename: mosh
   version: 1.4.0
-  origversion: null
+  origversion: 1.4.0-3
   status: newest
-  summary: Mobile shell (ssh replacement)
+  summary: Mobile Shell (mosh)
   maintainers:
-    - steven.keuchel@gmail.com
+    - achim.gratz@cygwin
   licenses:
     - GPL-3.0-or-later
-- repo: openwrt_24_10_x86_64
-  subrepo: packages
-  srcname: feeds/packages/net/mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-r1
-  status: newest
-  maintainers:
-    - rosenp@gmail.com
   categories:
-    - net
+    - Utils
+- repo: cygwin
+  srcname: mosh
+  binname: mosh-debuginfo
+  visiblename: mosh-debuginfo
+  version: 1.4.0
+  origversion: 1.4.0-3
+  status: newest
+  summary: Mobile Shell (mosh)
+  maintainers:
+    - achim.gratz@cygwin
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Debug
 - repo: adelie_current
   subrepo: user
   srcname: mosh
@@ -335,20 +271,19 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: cygwin
+- repo: debian_11
+  subrepo: bullseye/main
   srcname: mosh
-  binname: mosh
+  binnames:
+    - mosh
   visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-3
-  status: newest
-  summary: Mobile Shell (mosh)
+  version: 1.3.2
+  origversion: 1.3.2-2.1
+  status: outdated
   maintainers:
-    - achim.gratz@cygwin
-  licenses:
-    - GPL-3.0-or-later
+    - keithw@mit.edu
   categories:
-    - Utils
+    - net
 - repo: alpine_3_19
   subrepo: main
   srcname: mosh
@@ -492,6 +427,21 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
+- repo: kali_rolling
+  subrepo: main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
+  categories:
+    - net
 - repo: alpine_3_21
   subrepo: main
   srcname: mosh
@@ -921,20 +871,17 @@
     - fcolista@alpinelinux.org
   licenses:
     - GPL-3.0-or-later
-- repo: cygwin
+- repo: nix_stable_25_11
   srcname: mosh
-  binname: mosh-debuginfo
-  visiblename: mosh-debuginfo
+  visiblename: mosh
   version: 1.4.0
-  origversion: 1.4.0-3
+  origversion: null
   status: newest
-  summary: Mobile Shell (mosh)
+  summary: Mobile shell (ssh replacement)
   maintainers:
-    - achim.gratz@cygwin
+    - steven.keuchel@gmail.com
   licenses:
     - GPL-3.0-or-later
-  categories:
-    - Debug
 - repo: alpine_edge
   subrepo: main
   srcname: mosh
@@ -1108,19 +1055,6 @@
   summary: Remote terminal application that allows roaming, supports intermittent connectivity, and provides intelligent local echo and line editing of user keystrokes.
   licenses:
     - GPL-3
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: mosh
-  binnames:
-    - mosh
-  visiblename: mosh
-  version: 1.3.2
-  origversion: 1.3.2-2.1
-  status: outdated
-  maintainers:
-    - keithw@mit.edu
-  categories:
-    - net
 - repo: debian_12
   subrepo: bookworm/main
   srcname: mosh
@@ -1308,6 +1242,18 @@
     - GPLv3+
   categories:
     - Unspecified
+- repo: openwrt_23_05_x86_64
+  subrepo: packages
+  srcname: feeds/packages/net/mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - rosenp@gmail.com
+  categories:
+    - utils
 - repo: fedora_40
   subrepo: release
   srcname: mosh
@@ -1566,17 +1512,6 @@
     - GPLv3+
   categories:
     - Networking/Remote access
-- repo: parabola
-  subrepo: extra
-  srcname: mosh
-  binname: mosh
-  visiblename: mosh
-  version: 1.4.0
-  origversion: 1.4.0-35
-  status: newest
-  summary: Mobile shell, surviving disconnects with local echo and line editing
-  licenses:
-    - GPL-3.0-only
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: mosh
@@ -1864,18 +1799,6 @@
     - rosenp@gmail.com
   categories:
     - utils
-- repo: openwrt_23_05_x86_64
-  subrepo: packages
-  srcname: feeds/packages/net/mosh
-  binname: mosh-server
-  visiblename: mosh-server
-  version: 1.4.0
-  origversion: 1.4.0-1
-  status: newest
-  maintainers:
-    - rosenp@gmail.com
-  categories:
-    - utils
 - repo: openwrt_24_10_x86_64
   subrepo: packages
   srcname: feeds/packages/net/mosh
@@ -1898,6 +1821,72 @@
   status: newest
   maintainers:
     - rosenp@gmail.com
+  categories:
+    - net
+- repo: openwrt_24_10_x86_64
+  subrepo: packages
+  srcname: feeds/packages/net/mosh
+  binname: mosh-server
+  visiblename: mosh-server
+  version: 1.4.0
+  origversion: 1.4.0-r1
+  status: newest
+  maintainers:
+    - rosenp@gmail.com
+  categories:
+    - net
+- repo: parabola
+  subrepo: extra
+  srcname: mosh
+  binname: mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-35
+  status: newest
+  summary: Mobile shell, surviving disconnects with local echo and line editing
+  licenses:
+    - GPL-3.0-only
+- repo: pardus_21
+  subrepo: main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.3.2
+  origversion: 1.3.2-2.1
+  status: outdated
+  maintainers:
+    - keithw@mit.edu
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
+  categories:
+    - net
+- repo: parrot
+  subrepo: parrot/main
+  srcname: mosh
+  binnames:
+    - mosh
+  visiblename: mosh
+  version: 1.4.0
+  origversion: 1.4.0-1
+  status: newest
+  maintainers:
+    - keithw@mit.edu
+    - achernya@debian.org
+    - bbaren@debian.org
   categories:
     - net
 - repo: pkgsrc_2026_2
@@ -1942,14 +1931,6 @@
   version: 1.4.0
   origversion: 1.4.0-3
   status: newest
-- repo: ptxdist
-  srcname: mosh
-  visiblename: mosh
-  version: 1.3.2
-  origversion: null
-  status: outdated
-  licenses:
-    - GPL-3.0-only
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: mosh
@@ -2359,3 +2340,14 @@
   summary: tool used to connect from a client computer to a server over the Internet, to run a remote terminal
   licenses:
     - GNU General Public License, version 3.0
+- repo: aixtoolbox
+  srcname: mosh
+  visiblename: mosh
+  version: 1.3.2
+  origversion: 1.3.2-1
+  status: legacy
+  summary: Mobile shell that supports roaming and intelligent local echo
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified

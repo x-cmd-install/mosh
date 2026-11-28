@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,695 · **Forks**: 886 · **Open issues**: 954 · **Contributors**: 68
+- **Stars**: 14,698 · **Forks**: 886 · **Open issues**: 954 · **Contributors**: 68
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-28 | 0 | 0 | 6 | 0 | 3 | 0 |
-| 90d | 2026-08-29 | 0 | 0 | 9 | 0 | 4 | 0 |
-| last180d | 2026-05-31 | 0 | 0 | 14 | 4 | 6 | 0 |
-| 360d | 2025-12-02 | 0 | 7 | 24 | 5 | 11 | 0 |
-| last720d | 2024-12-07 | 0 | 8 | 26 | 15 | 22 | 20 |
+| 30d | 2026-10-29 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-29 | 0 | 0 | 6 | 0 | 3 | 0 |
+| 90d | 2026-08-30 | 0 | 0 | 9 | 0 | 4 | 0 |
+| last180d | 2026-06-01 | 0 | 0 | 14 | 4 | 6 | 0 |
+| 360d | 2025-12-03 | 0 | 7 | 23 | 5 | 11 | 15 |
+| last720d | 2024-12-08 | 0 | 8 | 26 | 15 | 22 | 20 |
 
 ## Release assets
 
@@ -72,25 +72,6 @@ Lowest-scoring checks:
 | [mosh-1.4.0-osx-build-report.tbz](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0-osx-build-report.tbz) | 163.6 KiB | `native/darwin/x64` |
 | [mosh-1.4.0.pkg](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.pkg) | 1.5 MiB | `other` |
 | [mosh-1.4.0.tar.gz](https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.tar.gz) | 384.2 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **183** distros on [repology.org](https://repology.org/project/mosh). **164** are ✅ on the latest upstream release, **14** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.4.0` | ✅ latest |
-| Debian 14 | `1.4.0` | ✅ latest |
-| Debian 13 | `1.4.0` | ✅ latest |
-| Ubuntu 26.04 LTS | `1.4.0` | ✅ latest |
-| Ubuntu 24.04 LTS | `1.4.0` | ✅ latest |
-| Arch | `1.4.0` | ✅ latest |
-| Homebrew | `1.4.0` | ✅ latest |
-| Fedora rawhide | `1.4.0` | ✅ latest |
-| Nix unstable | `1.4.0` | ✅ latest |
-| Void | `1.4.0` | ✅ latest |
-| Alpine edge | `1.4.0` | ✅ latest |
-| openSUSE Tumbleweed | `1.4.0` | ✅ latest |
 
 ## Improve this data
 
@@ -101,4 +82,4 @@ Install metadata for mosh lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:29:33Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:46:23Z._
